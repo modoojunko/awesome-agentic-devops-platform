@@ -1,0 +1,42 @@
+# 环境与本地配置
+.env
+.env.*
+!.env.example
+*.local
+*.local.json
+
+# 凭据 / 密钥
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials
+
+# Claude Code 本地设置（凭据/权限，不入库）
+.claude/settings.json
+.claude/settings.local.json
+.claude/scratchpad.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
